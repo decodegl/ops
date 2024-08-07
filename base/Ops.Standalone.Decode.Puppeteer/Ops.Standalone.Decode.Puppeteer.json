@@ -1,0 +1,50 @@
+{
+    "id": "2594e4b4-b8fd-4e09-903c-ce01b0699399",
+    "created": 1723025170607,
+    "license": "MIT",
+    "authorName": "kirel",
+    "changelog": [
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "kirel",
+            "date": 1723025170607
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Run"
+            },
+            {
+                "type": 5,
+                "name": "URL"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 1,
+                "name": "Finished"
+            },
+            {
+                "type": 5,
+                "name": "HTML content"
+            },
+            {
+                "type": 5,
+                "name": "Error"
+            }
+        ]
+    },
+    "dependencies": [
+        {
+            "name": "puppeteer",
+            "type": "npm",
+            "src": [
+                "puppeteer"
+            ],
+            "version": ""
+        }
+    ]
+}

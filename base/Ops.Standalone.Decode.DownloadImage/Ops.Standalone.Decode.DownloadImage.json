@@ -1,0 +1,44 @@
+{
+    "id": "00030524-8d8b-4553-ae21-83aba4b305e7",
+    "created": 1723039316488,
+    "license": "MIT",
+    "authorName": "kirel",
+    "changelog": [
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "kirel",
+            "date": 1723039316498
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Download Image"
+            },
+            {
+                "type": 5,
+                "name": "Image URL"
+            },
+            {
+                "type": 5,
+                "name": "File Name"
+            },
+            {
+                "type": 5,
+                "name": "File Path"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 1,
+                "name": "Finished"
+            },
+            {
+                "type": 5,
+                "name": "Error Message"
+            }
+        ]
+    }
+}
