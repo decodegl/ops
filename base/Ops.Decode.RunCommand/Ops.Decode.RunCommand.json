@@ -1,0 +1,50 @@
+{
+    "id": "d915b7ac-ba6d-4713-9a3f-9b87962cf917",
+    "created": 1723810592315,
+    "license": "MIT",
+    "authorName": "kirel",
+    "changelog": [
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "kirel",
+            "date": 1723810592316
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Run"
+            },
+            {
+                "type": 5,
+                "name": "Command"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 1,
+                "name": "On success"
+            },
+            {
+                "type": 1,
+                "name": "On Error"
+            },
+            {
+                "type": 5,
+                "name": "Stdout"
+            },
+            {
+                "type": 5,
+                "name": "Stderr"
+            },
+            {
+                "type": 5,
+                "name": "Error"
+            }
+        ]
+    },
+    "dependencies": [],
+    "name": "Ops.Decode.RunCommand"
+}

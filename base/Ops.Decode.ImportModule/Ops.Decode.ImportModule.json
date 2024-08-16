@@ -1,0 +1,63 @@
+{
+    "id": "34ffddd0-3b22-47e0-b03b-90d5f3900712",
+    "created": 1723735508570,
+    "license": "MIT",
+    "authorName": "kirel",
+    "changelog": [
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "kirel",
+            "date": 1723735508571
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 1,
+                "name": "Load"
+            },
+            {
+                "type": 5,
+                "name": "Full URL"
+            },
+            {
+                "type": 0,
+                "name": "Module Type index",
+                "values": [
+                    "ES6",
+                    "UMD"
+                ],
+                "subType": "integer"
+            },
+            {
+                "type": 0,
+                "name": "ES6 import Type index",
+                "values": [
+                    "default",
+                    "named"
+                ],
+                "subType": "integer"
+            },
+            {
+                "type": 5,
+                "name": "Aliased name in window object"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 1,
+                "name": "Loaded"
+            },
+            {
+                "type": 0,
+                "name": "Has loaded",
+                "subType": "boolean"
+            },
+            {
+                "type": 5,
+                "name": "Error?"
+            }
+        ]
+    }
+}

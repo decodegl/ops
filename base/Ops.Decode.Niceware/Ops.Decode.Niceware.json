@@ -1,0 +1,39 @@
+{
+    "id": "5cadc58d-dc3d-4203-b907-d129827562f1",
+    "created": 1723729428893,
+    "license": "MIT",
+    "authorName": "kirel",
+    "changelog": [
+        {
+            "message": "op created",
+            "type": "new op",
+            "author": "kirel",
+            "date": 1723729428894
+        }
+    ],
+    "layout": {
+        "portsIn": [
+            {
+                "type": 0,
+                "name": "Count",
+                "subType": "integer"
+            }
+        ],
+        "portsOut": [
+            {
+                "type": 3,
+                "name": "Names"
+            }
+        ]
+    },
+    "dependencies": [
+        {
+            "name": "niceware",
+            "type": "npm",
+            "src": [
+                "niceware"
+            ],
+            "version": ""
+        }
+    ]
+}
